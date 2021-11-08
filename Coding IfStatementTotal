@@ -1,0 +1,32 @@
+package selfProgramming;
+
+import java.util.Scanner;
+
+public class IfStatementTotal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+        int total;
+        int MAX;
+		int MAX_RATE;
+		
+		Scanner sc = new Scanner (System.in);
+		
+		System.out.print("Enter total: ");
+		total = sc.nextInt();
+		
+		System.out.print("Enter MAX: ");
+		MAX = sc.nextInt();
+		
+		System.out.print("Enter MAX_RATE: ");
+		MAX_RATE = sc.nextInt();
+		
+		if (total > MAX)
+			   total = total * MAX_RATE;
+			System.out.println ("The total is " + total); // despite of the true/false condition, this statement will executed
+
+
+	}
+
+}
