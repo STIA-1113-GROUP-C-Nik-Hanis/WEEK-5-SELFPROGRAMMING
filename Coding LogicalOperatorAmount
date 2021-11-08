@@ -1,0 +1,30 @@
+package selfProgramming;
+
+import java.util.Scanner;
+
+public class LogicalOperatorAmount {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		double amount ;
+		double balance ;
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Enter amount: ");
+		amount = sc.nextDouble();
+		
+		System.out.print("Enter balance: ");
+		balance = sc.nextDouble();
+		
+		if  ((amount <= 1000.0) && (amount <= balance))
+		{
+			balance = balance - amount;
+			System.out.println("Acct new balance = " + balance);
+		}
+
+
+	}
+
+}
