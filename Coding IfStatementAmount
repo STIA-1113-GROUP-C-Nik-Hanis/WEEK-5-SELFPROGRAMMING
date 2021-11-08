@@ -1,0 +1,29 @@
+package selfProgramming;
+
+import java.util.Scanner;
+public class IfStatementAmount {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        
+		// If statement 
+		
+		double amount;
+		double balance;
+		
+		Scanner a = new Scanner (System.in);
+		
+		System.out.print("Enter amount: ");
+		amount = a.nextDouble();
+		
+		System.out.print("Enter balance: ");
+		balance = a.nextDouble();
+		
+		if (amount <= balance){   // if this condition true then it will execute the statement below
+			balance = balance - amount;} // if not , then it will skipped
+		
+        
+		System.out.printf("Balance = %.2f " , balance);
+	}
+
+}
