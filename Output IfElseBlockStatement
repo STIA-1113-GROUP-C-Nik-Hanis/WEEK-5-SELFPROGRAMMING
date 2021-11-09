@@ -1,0 +1,13 @@
+// condition true
+
+Enter amount: 45.8
+Enter balance: 56.7
+Acct new balance = 10.90
+
+------------------------------------------------
+
+// condition false
+
+Enter amount: 48.0
+Enter balance: 34.9
+TRANSACTION NOT ALLOWED
