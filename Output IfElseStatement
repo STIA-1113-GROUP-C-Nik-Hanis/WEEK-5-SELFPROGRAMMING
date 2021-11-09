@@ -1,0 +1,13 @@
+// condition true
+
+Enter amount: 34.5
+Enter balance: 50.0
+Balance is 15.5
+
+------------------------------------------
+
+// condition false
+
+Enter amount: 50.0
+Enter balance: 34.5
+Balance is 24.5
