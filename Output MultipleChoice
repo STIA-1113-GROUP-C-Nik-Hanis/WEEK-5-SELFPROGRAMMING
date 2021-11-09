@@ -1,0 +1,22 @@
+// condition a>=1
+
+Enter number: 1
+The number you enter is :1
+You enter the positive number
+
+---------------------------------------------
+
+// condition a<0
+
+Enter number: -1
+The number you enter is :-1
+You enter the negative number
+
+---------------------------------------------
+
+// both condition false
+
+Enter number: 2
+The number you enter is :2
+You enter the positive number
+
