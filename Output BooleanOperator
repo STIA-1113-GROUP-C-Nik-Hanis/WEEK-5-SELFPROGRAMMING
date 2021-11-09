@@ -1,0 +1,11 @@
+// condition true 
+
+Enter your age: 45
+You are qualified to apply
+
+-----------------------------------------------
+
+// condition false 
+
+Enter your age: 24
+You are NOT qualified to apply
