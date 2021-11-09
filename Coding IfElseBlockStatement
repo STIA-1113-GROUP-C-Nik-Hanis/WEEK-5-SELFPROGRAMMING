@@ -1,0 +1,36 @@
+package selfProgramming;
+
+import java.util.Scanner;
+
+public class IfElseBlockStatement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		double amount;
+		double balance;
+		double OVERDRAFT_PENALTY = 10;
+		
+		Scanner a = new Scanner (System.in);
+		
+		System.out.print("Enter amount: ");
+		amount = a.nextDouble();
+		
+		System.out.print("Enter balance: ");
+		balance = a.nextDouble();
+		
+		if (amount <= balance)
+		{
+			balance = balance - amount;
+			System.out.printf("Acct new balance = %.2f" , balance);
+		}
+		else
+		{
+		      balance = balance - OVERDRAFT_PENALTY;
+			  System.out.println("TRANSACTION NOT ALLOWED");
+		} 
+
+
+	}
+
+}
